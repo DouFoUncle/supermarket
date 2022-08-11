@@ -1,0 +1,130 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/shoppingCart/shoppingCart",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/personalCenter/personalCenter",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+            }
+        }
+        ,{
+            "path" : "pages/addlist/addlist",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/createAddress/createAddress",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+            }
+            
+        },{
+            "path" : "pages/ordering/ordering",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/applyForRider/applyForRider",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/createOrder/createOrder",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#fc4f36",
+		"backgroundColor": "#F5F5F5",
+		"enablePullDownRefresh": false,
+		"app-plus": {
+			"bounce": "none" // 将回弹属性关掉
+		}
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+			"selectedColor": "#fc4f36",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/shouye.png",
+				"selectedIconPath": "static/images/shouyefill.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/images/fenlei.png",
+				"selectedIconPath": "static/images/fenleiactive.png",
+				"text": "分类"
+			}, {
+				"pagePath": "pages/shoppingCart/shoppingCart",
+				"iconPath": "static/images/gouwuche.png",
+				"selectedIconPath": "static/images/gouwuchefill.png",
+				"text": "购物车"
+			}, {
+				"pagePath": "pages/personalCenter/personalCenter",
+				"iconPath": "static/images/wode.png",
+				"selectedIconPath": "static/images/wodefill.png",
+				"text": "个人中心"
+			}, {
+				"pagePath": "pages/order/order",
+				"iconPath": "static/images/jiedanjilumian2.png",
+				"selectedIconPath": "static/images/jiedanjilumian.png",
+				"text": "接单"
+			}]
+	}
+}
